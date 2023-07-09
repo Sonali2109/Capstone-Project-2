@@ -1,0 +1,81 @@
+body{
+    background-color: #FFF8DE;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title{
+    background-color: #e6d9ab;
+    padding: 10px;
+    margin: 25px;
+    height: 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 25px;
+    border-color: 10px soild black;
+    border-radius: 10px;
+    border-width: 10px;
+}
+
+.title > h2{
+    font-size: 35px;
+    font-style: normal;
+}
+
+.bio > p{
+    font-size: 25px;
+    font-style: normal;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #acb832;
+    border-width: 5px;
+    width: 5%;
+}
+
+li, h3{
+    list-style: none;
+    font-size: 25px;
+}
+
+.skills{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    margin-top: 20px;
+    font-size: 16px;
+    display:grid;
+}
+
+.skill-row > img{
+    float: left;
+}
+
+.skill-row  p{
+    float: right;
+    text-align: justify;
+    font-size: 10px;
+}
+
+.contact-us > p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.web{
+    display: inline-flex;
+}
+
+.web > p{
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 0px;
+}
+
+.footer{
+    font-size: 25px;
+    background-color: #e6d9ab;
+    padding-bottom: 1pt;
+}
